@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#canvas-container {
+  position: relative;
+}
+
+#canvas {
+  border: 1px solid black;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#text-input {
+  width: 200px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#text-selector {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#font-family,
+#font-size,
+#text-color {
+  margin-right: 10px;
+}
+
+#text-controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+label {
+  margin-right: 8px;
+}
+
+#save-meme {
+  display: block;
+  margin: 10px auto 0;
+}
+
+canvas {
+  touch-action: none;
+}
+
+canvas.grabbing {
+  cursor: grabbing;
+}
